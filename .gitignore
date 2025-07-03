@@ -1,0 +1,39 @@
+# Python
+venv/
+venv_new/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.cache
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Backend model cache
+backend/models/__pycache__/
+backend/__pycache__/
+backend/.cache
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/.env*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log* 
